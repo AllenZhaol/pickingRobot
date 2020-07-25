@@ -1,0 +1,95 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: asdasd zhaolun, dasda, LIC=BL2VE-5728L-FZDWU-SRFGR-5KIDI-ZIB52
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.14.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DCM.DLL V1.13.1.0
+Target DLL:      Segger\JL2CM3.dll V2.99.13.0
+Dialog DLL:      TCM.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+C:\Users\zhaolun\Desktop\robot6.29\USER\Template.uvprojx
+Project File Date:  06/28/2020
+
+<h2>Output:</h2>
+Build target 'Template'
+compiling com_data.c...
+..\HARDWARE\COM_DATA\com_data.h(16): warning:  #1295-D: Deprecated declaration resetCommand - give arg types
+  void resetCommand();
+..\HARDWARE\COM_DATA\com_data.h(17): warning:  #1295-D: Deprecated declaration RunCommand - give arg types
+  void RunCommand();
+..\HARDWARE\COM_DATA\com_data.h(19): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\TIMER\timer.h(17): warning:  #1295-D: Deprecated declaration micros - give arg types
+  uint64_t micros();
+..\HARDWARE\GPIO\command.h(31): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\MOTOR_AND_ENCODER\motor_and_encoder.h(7): warning:  #1295-D: Deprecated declaration initMotorController - give arg types
+  void initMotorController();
+..\HARDWARE\MOTOR_AND_ENCODER\motor_and_encoder.h(15): warning:  #1295-D: Deprecated declaration resetEncoders - give arg types
+  void resetEncoders();
+..\HARDWARE\MOTOR_AND_ENCODER\motor_and_encoder.h(16): warning:  #1295-D: Deprecated declaration initEncoders - give arg types
+  void initEncoders();
+..\HARDWARE\MOTOR_AND_ENCODER\motor_and_encoder.h(17): warning:  #1295-D: Deprecated declaration stepperMotorInit - give arg types
+  int stepperMotorInit();
+..\HARDWARE\MOTOR_AND_ENCODER\motor_and_encoder.h(19): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\PID\pid.h(19): warning:  #1295-D: Deprecated declaration updatePID - give arg types
+  void updatePID();
+..\HARDWARE\PID\pid.h(22): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\MOVE\move.h(8): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\COM_DATA\com_data.c(85): warning:  #177-D: variable "d_distance" was declared but never referenced
+        int d_distance=0;
+..\HARDWARE\COM_DATA\com_data.c(86): warning:  #177-D: variable "d_angle" was declared but never referenced
+    int d_angle=0;
+..\HARDWARE\COM_DATA\com_data.c(88): warning:  #177-D: variable "t" was declared but never referenced
+        u8 t;
+..\HARDWARE\COM_DATA\com_data.c(89): warning:  #177-D: variable "i" was declared but never referenced
+        u8 i=0; 
+..\HARDWARE\COM_DATA\com_data.c(90): warning:  #177-D: variable "j" was declared but never referenced
+        u8 j=0;
+..\HARDWARE\COM_DATA\com_data.c(91): warning:  #177-D: variable "len" was declared but never referenced
+        u8 len=0;       
+..\HARDWARE\COM_DATA\com_data.c(92): warning:  #177-D: variable "data" was declared but never referenced
+        u8 data[8];
+..\HARDWARE\COM_DATA\com_data.c(130): warning:  #940-D: missing return statement at end of non-void function "process_data"
+  }
+..\HARDWARE\COM_DATA\com_data.c(120): warning:  #177-D: variable "i" was declared but never referenced
+    int i,j;
+..\HARDWARE\COM_DATA\com_data.c(120): warning:  #177-D: variable "j" was declared but never referenced
+    int i,j;
+..\HARDWARE\COM_DATA\com_data.c(122): warning:  #177-D: variable "batteryVolt" was declared but never referenced
+        uint16_t batteryVolt;
+..\HARDWARE\COM_DATA\com_data.c(143): warning:  #940-D: missing return statement at end of non-void function "process_data2"
+  }
+..\HARDWARE\COM_DATA\com_data.c(157): warning:  #940-D: missing return statement at end of non-void function "process_adc"
+  }
+..\HARDWARE\COM_DATA\com_data.c: 26 warnings, 0 errors
+linking...
+Program Size: Code=17260 RO-data=608 RW-data=216 ZI-data=2376  
+FromELF: creating hex file...
+"..\OBJ\Template.axf" - 0 Error(s), 26 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\zhaolun\Desktop\robot6.29\USER\RTE
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+</pre>
+</body>
+</html>
